@@ -1,8 +1,8 @@
 # bun-biome-template
 
 ### install bun on WSL2
-https://dev.to/0xkoji/installing-bun-on-wsl2-with-homebrew-16hh
 
+https://dev.to/0xkoji/installing-bun-on-wsl2-with-homebrew-16hh
 
 To install dependencies:
 
@@ -18,5 +18,21 @@ bun run src/index.ts
 
 This project was created using `bun init` in bun v1.2.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
 
-
 ### available commands
+
+```zsh
+# run vitest
+bun run test
+
+# run biome
+bun run format
+
+# run linter
+bun run lint
+
+# fix
+bun run lint:fix
+
+bun run check
+
+```
